@@ -1,0 +1,27 @@
+{
+  "name": "psd-cutting2",
+  "version": "1.0.0",
+  "description": "Readme",
+  "main": "main.js",
+  "scripts": {
+    "browser": "browser-sync start --server --files \"css/*.css\" \"*.html",
+    "sass": "sass --watch css/input.scss:css/output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichalW01/Psd-Cutting2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichalW01/Psd-Cutting2/issues"
+  },
+  "homepage": "https://github.com/MichalW01/Psd-Cutting2#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.13"
+  },
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
